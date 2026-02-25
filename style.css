@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('gym-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: pink;
+    width: 300px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.6);
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #00ffcc;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input, select, button{
+    padding:10px;
+    margin:5px;
+    width:80%;
+}
+
+button{
+    background-color:#28a745;
+    color:white;
+    border:none;
+    cursor: pointer;
+    padding: 12px;
+    width: 95%;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #ff4b2b, #ff416c)
+}
+
+#mensaje{
+    margin-top: 15px;
+    font-size:14px;
+    color: #ffcccb;
+}
